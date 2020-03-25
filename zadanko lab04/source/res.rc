@@ -1,0 +1,1012 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "res.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Polish (Poland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "res.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAINICON            ICON                    "57ed4c2e36448_p_yu4_icon.ico"
+
+IDI_KAJKO               ICON                    "ikonki\\kajko_TrK_icon.ico"
+
+IDI_KOKOSZ              ICON                    "ikonki\\kokosz_SDe_icon.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_KOKOSZMENU MENU
+BEGIN
+    POPUP "Statystyki podstawowe"
+    BEGIN
+        POPUP "Budowa"
+        BEGIN
+            MENUITEM "20",                          ID_BUDOWA_20
+        END
+        POPUP "Serce"
+        BEGIN
+            MENUITEM "7",                           ID_SERCE_7
+        END
+        POPUP "Odwaga"
+        BEGIN
+            MENUITEM "5",                           ID_ODWAGA_5
+        END
+        POPUP "Kondycja "
+        BEGIN
+            MENUITEM "51",                          ID_KONDYCJA_51
+        END
+        POPUP "Si³a"
+        BEGIN
+            MENUITEM "11",                          ID_SI40132
+        END
+        POPUP "Umiejêtnoœæ"
+        BEGIN
+            MENUITEM "5",                           ID_UMIEJ40134
+        END
+        POPUP "Zrêcznoœæ"
+        BEGIN
+            MENUITEM "5",                           ID_ZR40136
+        END
+        POPUP "Magia"
+        BEGIN
+            MENUITEM "60",                          ID_MAGIA_60
+        END
+        POPUP "Poziom postaci"
+        BEGIN
+            MENUITEM "122",                         ID_POZIOMPOSTACI_122
+        END
+        POPUP "Punkty ¿ycia"
+        BEGIN
+            MENUITEM "2837",                        ID_PUNKTY40142
+        END
+        POPUP "Ki"
+        BEGIN
+            MENUITEM "1107",                        ID_KI_1107
+        END
+        POPUP "Szybkoœæ odnawiania ki"
+        BEGIN
+            MENUITEM "299",                         ID_SZYBKO40146
+        END
+        POPUP "Waga wyposa¿enia"
+        BEGIN
+            POPUP "37,9/49,6"
+            BEGIN
+                MENUITEM "76,4%",                       ID_37_76
+            END
+        END
+        POPUP "Zwinnoœæ"
+        BEGIN
+            MENUITEM "S³aba",                       ID_ZWINNO40151
+        END
+    END
+    POPUP "Uzbrojenie "
+    BEGIN
+        POPUP "Broñ bia³a"
+        BEGIN
+            POPUP "Boska Dwurêczna Glewia"
+            BEGIN
+                POPUP "Skrzyd³o feniksa"
+                BEGIN
+                    MENUITEM "160(+2)",                     ID_SKRZYD40154
+                END
+            END
+            POPUP "Boskie Dwa miecze"
+            BEGIN
+                POPUP "Shichisei i Heishishorin"
+                BEGIN
+                    MENUITEM "160",                         ID_SHICHISEIIHEISHISHORIN_1
+                END
+            END
+        END
+        POPUP "Broñ dystansowa"
+        BEGIN
+            POPUP "Boski £uk"
+            BEGIN
+                POPUP "£uk Pchniêcie Rogu"
+                BEGIN
+                    MENUITEM "160(+1)",                     ID_40160
+                END
+            END
+            POPUP "Boski Karabin"
+            BEGIN
+                POPUP "Karabin z Sakai"
+                BEGIN
+                    MENUITEM "160",                         ID_KARABINZSAKI_160
+                END
+            END
+        END
+        POPUP "Akcesoria"
+        BEGIN
+            POPUP "Boskie Lusterko podrêczne"
+            BEGIN
+                MENUITEM "160",                         ID_BOSKIELUSTERKOPODR40165
+            END
+            POPUP "Rzadka Kosmiczna tablica "
+            BEGIN
+                MENUITEM "70",                          ID_RZADKAKOSMICZNATABLICA_70
+            END
+        END
+        POPUP "G³owa"
+        BEGIN
+            POPUP "Legendarny garnek"
+            BEGIN
+                POPUP "Dzban Kokoszanel"
+                BEGIN
+                    MENUITEM "160(+9)",                     ID_DZBANKOKOSZANEL_160
+                END
+            END
+        END
+        POPUP "Tu³ów"
+        BEGIN
+            POPUP "Boska Koszula"
+            BEGIN
+                POPUP "Ró¿owa pantera"
+                BEGIN
+                    MENUITEM "124",                         ID_R40176
+                END
+            END
+        END
+        POPUP "Rêcê"
+        BEGIN
+            MENUITEM "Brak wyposa¿enia",            ID_R40177
+        END
+        POPUP "Nogi"
+        BEGIN
+            POPUP "Pospolite Spodnie"
+            BEGIN
+                POPUP "Czarne legginsy"
+                BEGIN
+                    MENUITEM "20",                          ID_CZARNELEGGINSY_20
+                END
+            END
+            POPUP "Boski pas"
+            BEGIN
+                POPUP "Kajko & Gabana"
+                BEGIN
+                    MENUITEM "420",                         ID_KAJKOGABANA_420
+                END
+            END
+        END
+        POPUP "Stopy"
+        BEGIN
+            POPUP "Demoniczne Buty"
+            BEGIN
+                POPUP "Sanda³y Moj¿esza"
+                BEGIN
+                    MENUITEM "???",                         ID_SANDA40186
+                END
+            END
+        END
+    END
+    POPUP "Super Moce"
+    BEGIN
+        POPUP "Stand"
+        BEGIN
+            POPUP "The World"
+            BEGIN
+                POPUP "Zatrzymanie czasu"
+                BEGIN
+                    MENUITEM "Kokosz zatrzymuje up³yw czasu na 5 sekund i rzuca no¿ami ", ID_ZATRZYMANIECZASU_KOKOSZZATRZYMUJEUP40192
+                END
+                POPUP "MUDA MUDA MUDA!!!"
+                BEGIN
+                    MENUITEM "Kokosz przyzywa swojego standa, który wyprowadza serie niszczycielskich ciosów w kierunku wroga", ID_MUDAMUDAMUDA_KOKOSZPRZYZYWASWOJEGOSTANDA
+                END
+                POPUP "ROADROLLER"
+                BEGIN
+                    MENUITEM "Kokosz u¿ywa walca drogowego by zgnieœæ przeciwników", ID_ROADROLLER_KOKOSZU40193
+                END
+            END
+        END
+        POPUP "Zanpaktou "
+        BEGIN
+            POPUP "Shikai"
+            BEGIN
+                POPUP "Kokszetsu"
+                BEGIN
+                    POPUP "Bankai"
+                    BEGIN
+                        MENUITEM "Kyouka Kokszetsu",            ID_BANKAI_KYOUKAKOKSZETSU
+                        POPUP "Opis"
+                        BEGIN
+                            MENUITEM "Boska Glewia zmienia siê w krótkie ostrze, które po wbiciu w ziemie jest w stanie kontorlowaæ otoczenie w promieniu 5 kilometrów wraz z wol¹ Kokosza", ID_OPIS_BOSKAGLEWIAZMIENIASI40201
+                        END
+                    END
+                END
+                POPUP "Opis"
+                BEGIN
+                    MENUITEM "Duch boskiej glewi Kokosza zmienia jego broñ w wielk¹ maczugê kontroluj¹c¹ ¿ywio³ ziemii", ID_OPIS_DUCHBOSKIEJGLEWIKOKOSZAZMIENIAJEGOBRO40199
+                END
+            END
+        END
+        POPUP "Diabelski owoc"
+        BEGIN
+            POPUP "Typ Paramecja"
+            BEGIN
+                POPUP "Koishi Koishi no mi"
+                BEGIN
+                    MENUITEM "Kokosz klaskaj¹c w d³onie jest w stanie zamieniæ otaczaj¹ce je cz¹steczki powietrza w wielki g³az", ID_KOISHIKOISHINOMI_KOKOSZKLASKAJ40204
+                END
+            END
+        END
+        POPUP "Oddech ziemii"
+        BEGIN
+            POPUP "Forma 1"
+            BEGIN
+                MENUITEM "Podczas u¿ywania mieczy kokosz jest w stanie wyprowadziæ przeszywaj¹ce ciêcie b³ota", ID_FORMA1_PODCZASU40223
+            END
+            POPUP "Forma 2"
+            BEGIN
+                MENUITEM "Podczas u¿ywania mieczy Kokosz wzbija siê w powietrze wywo³uj¹c skalne tornado", ID_FORMA2_PODCZASU40224
+            END
+            POPUP "Forma 3"
+            BEGIN
+                MENUITEM "Kokosz skupia oddech po czym dotykawszy ziemii jest w stanie wyczuæ pozycje wroga w promieniu 10 km", ID_FORMA3_KOKOSZSKUPIAODDECHPOCZYMDOTYKAWSZYZIEMIIJESTWSTANIEWYCZU40225
+            END
+            POPUP "Forma 4"
+            BEGIN
+                MENUITEM "Wstrzymuj¹c oddech skóra kokosza staje siê twarda niczym diament", ID_FORMA4_WSTRZYMUJ40226
+            END
+        END
+        POPUP "Hamon"
+        BEGIN
+            POPUP "Sun yellow overdrive"
+            BEGIN
+                MENUITEM "Kokosz kontroluj¹c oddech jest w stanie wykrzesaæ pioruny zabijaj¹ce wampiry", ID_SUNYELLOWOVERDRIVE_KOKOSZKONTROLUJ40229
+            END
+        END
+        POPUP "Okrzyk bojowy"
+        BEGIN
+            POPUP "WRYYYY!"
+            BEGIN
+                MENUITEM "KONO KOKOSZ DA",              ID_WRYYYY_KONODIODA
+            END
+        END
+        POPUP "Quirk"
+        BEGIN
+            POPUP "One for all"
+            BEGIN
+                MENUITEM "Super si³a przekazywana z pokolenia na pokolenia w rodzinie Kokosza, jest ona tak dewastacyjna, ¿e Kokosz mo¿e u¿ywaæ zaledwie 8% jej mocy", ID_ONEFORALL_SUPERSI40238
+            END
+        END
+    END
+    POPUP "Transformacje"
+    BEGIN
+        POPUP "Kokoszken "
+        BEGIN
+            MENUITEM "x1",                          ID_KOKOSZKEN_X1
+            MENUITEM "x3",                          ID_KOKOSZKEN_X3
+            MENUITEM "x4",                          ID_KOKOSZKEN_X4
+            MENUITEM "x10",                         ID_KOKOSZKEN_X10
+            MENUITEM "x20",                         ID_KOKOSZKEN_X20
+        END
+        POPUP "Super Kokosz"
+        BEGIN
+            POPUP "Super Kokosz 2"
+            BEGIN
+                POPUP "Super Kokosz 3"
+                BEGIN
+                    POPUP "Super Kokosz 4"
+                    BEGIN
+                        POPUP "Super Kokosz God"
+                        BEGIN
+                            POPUP "Super Kokosz God Super Kokosz"
+                            BEGIN
+                                POPUP "Ultra instynkt Omen"
+                                BEGIN
+                                    MENUITEM "Mastered Ultra instynkt",     ID_ULTRAINSTYNKTOMEN_MASTEREDULTRA
+                                END
+                            END
+                        END
+                    END
+                END
+            END
+        END
+        POPUP "Chakra ogoniastej bestii"
+        BEGIN
+            MENUITEM "Dragon Miluœ Mode",           ID_CHAKRAOGONIASTEJBESTII_DRAGONMILU40217
+        END
+        POPUP "Bieg 4"
+        BEGIN
+            MENUITEM "Korzystaj¹c ze swojego diabelskiego owocu Kokosz przybiera formê skalnego golema", ID_BIEG4_KORZYSTAJ40233
+        END
+        POPUP "Duch Milenialnej Uk³adanki"
+        BEGIN
+            POPUP "Kokosz zamienia siê miejscem z Yami Kokoszem"
+            BEGIN
+                MENUITEM "Yami Kokosz dobiera piêæ czêœci Exodii i wygrywa pojedynek", ID_KOKOSZZAMIENIASI40235
+            END
+        END
+    END
+END
+
+IDR_KAJKOMENU MENU
+BEGIN
+    POPUP "Aparycja"
+    BEGIN
+        POPUP "Wzrost"
+        BEGIN
+            POPUP "Komiks"
+            BEGIN
+                POPUP "1981"
+                BEGIN
+                    POPUP "Wielki Turniej"
+                    BEGIN
+                        MENUITEM "Niski",                       ID_WIELKITURNIEJ_NISKI
+                    END
+                    POPUP "Szko³a latania "
+                    BEGIN
+                        MENUITEM "Niski",                       ID_SZKO40087
+                    END
+                END
+                POPUP "1983"
+                BEGIN
+                    POPUP "Na wczasach"
+                    BEGIN
+                        MENUITEM "Niski",                       ID_NAWCZASACH_NISKI
+                    END
+                    POPUP "Zamach na Milusia"
+                    BEGIN
+                        MENUITEM "Niski",                       ID_ZAMACHNAMILUSIA_NISKI
+                    END
+                END
+                POPUP "1984"
+                BEGIN
+                    POPUP "Cudowny lek"
+                    BEGIN
+                        MENUITEM "Niski",                       ID_CUDOWNYLEK_NISKI
+                    END
+                    POPUP "Festiwal czarownic"
+                    BEGIN
+                        MENUITEM "Niski",                       ID_FESTIWALCZAROWNIC_NISKI
+                    END
+                    POPUP "Dzieñ Œmiecha³y"
+                    BEGIN
+                        MENUITEM "Niski",                       ID_DZIE40092
+                    END
+                END
+                POPUP "1985"
+                BEGIN
+                    POPUP "Z³oty puchar"
+                    BEGIN
+                        MENUITEM "Niski",                       ID_Z40093
+                    END
+                    POPUP "Szranki i konkury"
+                    BEGIN
+                        MENUITEM "Niski",                       ID_SZRANKIIKONKURY_NISKI
+                    END
+                    POPUP "Skarb Mirmi³a"
+                    BEGIN
+                        MENUITEM "Niski",                       ID_SKARBMIRMI40095
+                    END
+                END
+                POPUP "1987"
+                BEGIN
+                    POPUP "W krainie borostworów"
+                    BEGIN
+                        MENUITEM "Niski",                       ID_WKRAINIEBOROSTWOR40096
+                    END
+                END
+                POPUP "1988"
+                BEGIN
+                    POPUP "Woje Mirma³a"
+                    BEGIN
+                        MENUITEM "Niski",                       ID_WOJEMIRMA40097
+                    END
+                END
+                POPUP "1990"
+                BEGIN
+                    POPUP "Mimra³ w opa³ach"
+                    BEGIN
+                        MENUITEM "Niski",                       ID_MIMRA40098
+                    END
+                END
+                POPUP "2004"
+                BEGIN
+                    POPUP "Urodziny Milusia"
+                    BEGIN
+                        MENUITEM "Niski",                       ID_URODZINYMILUSIA_NISKI
+                    END
+                END
+            END
+            POPUP "Film"
+            BEGIN
+                POPUP "2005"
+                BEGIN
+                    POPUP """Kajko i Kokosz"""
+                    BEGIN
+                        MENUITEM "Niski",                       ID__NISKI
+                    END
+                END
+            END
+            POPUP "Teatr"
+            BEGIN
+                POPUP "1986"
+                BEGIN
+                    POPUP "S³upsk"
+                    BEGIN
+                        MENUITEM "Jak Adam Gromadzki",          0
+                    END
+                END
+                POPUP "2010"
+                BEGIN
+                    POPUP "Olsztyn"
+                    BEGIN
+                        MENUITEM "Jak aktor który go adaptowa³", ID_OLSZTYN_JAKAKTORKT40101
+                    END
+                END
+            END
+            POPUP "Gra"
+            BEGIN
+                POPUP "1994"
+                BEGIN
+                    POPUP "Kajko i Kokosz"
+                    BEGIN
+                        MENUITEM "Niski",                       ID_KAJKOIKOKOSZ_NISKI
+                    END
+                END
+                POPUP "1998"
+                BEGIN
+                    POPUP "Kajko i Kokosz w Krainie Brotostworów"
+                    BEGIN
+                        MENUITEM "Ma³y",                        ID_KAJKOIKOKOSZWKRAINIEBROTOSTWOR40104
+                    END
+                END
+                POPUP "2005"
+                BEGIN
+                    POPUP "Kajko i Kokosz: Szko³a latania"
+                    BEGIN
+                        MENUITEM "Niski",                       ID_KAJKOIKOKOSZ_NISKI40105
+                    END
+                END
+                POPUP "2006"
+                BEGIN
+                    POPUP "Kajko i Kokosz 2: Cudowny lek "
+                    BEGIN
+                        MENUITEM "Niski",                       ID_KAJKOIKOKOSZ2_NISKI
+                    END
+                END
+                POPUP "2012"
+                BEGIN
+                    POPUP "Kajko i Kokosz: Mirmi³owo Wielkie"
+                    BEGIN
+                        MENUITEM "Niski",                       ID_KAJKOIKOKOSZ_CZARNE40078
+                    END
+                    POPUP "Kajko i Kokosz: Podstêp kaprala"
+                    BEGIN
+                        MENUITEM "Niski",                       ID_KAJKOIKOKOSZ_CZARNE40078
+                    END
+                    POPUP "Kajko i Kokosz: Rozprawa z Hodonem"
+                    BEGIN
+                        MENUITEM "Niski",                       ID_KAJKOIKOKOSZ_CZARNE40078
+                    END
+                    POPUP "Kajko i Kokosz: Twierdza Czarnoksiê¿nika"
+                    BEGIN
+                        MENUITEM "Niski",                       ID_KAJKOIKOKOSZ_CZARNE40078
+                    END
+                END
+            END
+        END
+        POPUP "Kolor w³osów"
+        BEGIN
+            POPUP "Komiks"
+            BEGIN
+                POPUP "1981"
+                BEGIN
+                    POPUP "Wielki Turniej"
+                    BEGIN
+                        MENUITEM "Czarne",                      0
+                    END
+                    POPUP "Szko³a latania "
+                    BEGIN
+                        MENUITEM "Czarne",                      0
+                    END
+                END
+                POPUP "1983"
+                BEGIN
+                    POPUP "Na wczasach"
+                    BEGIN
+                        MENUITEM "Czarne",                      0
+                    END
+                    POPUP "Zamach na Milusia"
+                    BEGIN
+                        MENUITEM "Czarne",                      0
+                    END
+                END
+                POPUP "1984"
+                BEGIN
+                    POPUP "Cudowny lek"
+                    BEGIN
+                        MENUITEM "Czarne",                      0
+                    END
+                    POPUP "Festiwal czarownic"
+                    BEGIN
+                        MENUITEM "Czarne",                      0
+                    END
+                    POPUP "Dzieñ Œmiecha³y"
+                    BEGIN
+                        MENUITEM "Czarne",                      0
+                    END
+                END
+                POPUP "1985"
+                BEGIN
+                    POPUP "Z³oty puchar"
+                    BEGIN
+                        MENUITEM "Czarne",                      0
+                    END
+                    POPUP "Szranki i konkury"
+                    BEGIN
+                        MENUITEM "Czarne",                      0
+                    END
+                    POPUP "Skarb Mirmi³a"
+                    BEGIN
+                        MENUITEM "Czarne",                      0
+                    END
+                END
+                POPUP "1987"
+                BEGIN
+                    POPUP "W krainie borostworów"
+                    BEGIN
+                        MENUITEM "Czarne",                      0
+                    END
+                END
+                POPUP "1988"
+                BEGIN
+                    POPUP "Woje Mirma³a"
+                    BEGIN
+                        MENUITEM "Czarne",                      0
+                    END
+                END
+                POPUP "1990"
+                BEGIN
+                    POPUP "Mimra³ w opa³ach"
+                    BEGIN
+                        MENUITEM "Czarne",                      0
+                    END
+                END
+                POPUP "2004"
+                BEGIN
+                    POPUP "Urodziny Milusia"
+                    BEGIN
+                        MENUITEM "Czarne",                      0
+                    END
+                END
+            END
+            POPUP "Film"
+            BEGIN
+                POPUP "2005"
+                BEGIN
+                    POPUP """Kajko i Kokosz"""
+                    BEGIN
+                        MENUITEM "Czarne",                      ID__CZARNE
+                    END
+                END
+            END
+            POPUP "Teatr"
+            BEGIN
+                POPUP "1986"
+                BEGIN
+                    POPUP "S³upsk"
+                    BEGIN
+                        MENUITEM "Jak Adam Gromadzki",          0
+                    END
+                END
+                POPUP "2010"
+                BEGIN
+                    POPUP "Olsztyn"
+                    BEGIN
+                        MENUITEM "Jak aktor który go adaptowa³", ID_OLSZTYN_JAKAKTORKT40102
+                    END
+                END
+            END
+            POPUP "Gra"
+            BEGIN
+                POPUP "1994"
+                BEGIN
+                    POPUP "Kajko i Kokosz"
+                    BEGIN
+                        MENUITEM "Czarne",                      0
+                    END
+                END
+                POPUP "1998"
+                BEGIN
+                    POPUP "Kajko i Kokosz w Krainie Brotostworów"
+                    BEGIN
+                        MENUITEM "Czarne",                      0
+                    END
+                END
+                POPUP "2005"
+                BEGIN
+                    POPUP "Kajko i Kokosz: Szko³a latania"
+                    BEGIN
+                        MENUITEM "Czarne",                      0
+                    END
+                END
+                POPUP "2006"
+                BEGIN
+                    POPUP "Kajko i Kokosz 2: Cudowny lek "
+                    BEGIN
+                        MENUITEM "Czarne",                      0
+                    END
+                END
+                POPUP "2012"
+                BEGIN
+                    POPUP "Kajko i Kokosz: Mirmi³owo Wielkie"
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_KAJKOIKOKOSZ_CZARNE40078
+                    END
+                    POPUP "Kajko i Kokosz: Podstêp kaprala"
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_KAJKOIKOKOSZ_CZARNE40078
+                    END
+                    POPUP "Kajko i Kokosz: Rozprawa z Hodonem"
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_KAJKOIKOKOSZ_CZARNE40078
+                    END
+                    POPUP "Kajko i Kokosz: Twierdza Czarnoksiê¿nika"
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_KAJKOIKOKOSZ_CZARNE40078
+                    END
+                END
+            END
+        END
+        POPUP "Kolor oczu"
+        BEGIN
+            POPUP "Komiks"
+            BEGIN
+                POPUP "1981"
+                BEGIN
+                    POPUP "Wielki Turniej"
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_WIELKITURNIEJ_CZARNE
+                    END
+                    POPUP "Szko³a latania "
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_SZKO40031
+                    END
+                END
+                POPUP "1983"
+                BEGIN
+                    POPUP "Na wczasach"
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_NAWCZASACH_CZARNE
+                    END
+                    POPUP "Zamach na Milusia"
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_ZAMACHNAMILUSIA_CZARNE
+                    END
+                END
+                POPUP "1984"
+                BEGIN
+                    POPUP "Cudowny lek"
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_CUDOWNYLEK_CZARNE
+                    END
+                    POPUP "Festiwal czarownic"
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_FESTIWALCZAROWNIC_CZARNE
+                    END
+                    POPUP "Dzieñ Œmiecha³y"
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_DZIE40042
+                    END
+                END
+                POPUP "1985"
+                BEGIN
+                    POPUP "Z³oty puchar"
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_Z40044
+                    END
+                    POPUP "Szranki i konkury"
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_SZRANKIIKONKURY_CZARNE
+                    END
+                    POPUP "Skarb Mirmi³a"
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_SKARBMIRMI40048
+                    END
+                END
+                POPUP "1987"
+                BEGIN
+                    POPUP "W krainie borostworów"
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_WKRAINIEBOROSTWOR40050
+                    END
+                END
+                POPUP "1988"
+                BEGIN
+                    POPUP "Woje Mirma³a"
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_WOJEMIRMA40052
+                    END
+                END
+                POPUP "1990"
+                BEGIN
+                    POPUP "Mimra³ w opa³ach"
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_MIMRA40054
+                    END
+                END
+                POPUP "2004"
+                BEGIN
+                    POPUP "Urodziny Milusia"
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_URODZINYMILUSIA_CZARNE
+                    END
+                END
+            END
+            POPUP "Film"
+            BEGIN
+                POPUP "2005"
+                BEGIN
+                    POPUP """Kajko i Kokosz"""
+                    BEGIN
+                        MENUITEM "Niebieskie",                  ID__NIEBIESKIE
+                    END
+                END
+            END
+            POPUP "Teatr"
+            BEGIN
+                POPUP "1986"
+                BEGIN
+                    POPUP "S³upsk"
+                    BEGIN
+                        MENUITEM "Jak Adam Gromadzki",          ID_S40060
+                    END
+                END
+                POPUP "2010"
+                BEGIN
+                    POPUP "Olsztyn"
+                    BEGIN
+                        MENUITEM "Jak aktor który go adaptowa³", ID_OLSZTYN_ZALE40063
+                    END
+                END
+            END
+            POPUP "Gra"
+            BEGIN
+                POPUP "1994"
+                BEGIN
+                    POPUP "Kajko i Kokosz"
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_KAJKOIKOKOSZ_CZARNE
+                    END
+                END
+                POPUP "1998"
+                BEGIN
+                    POPUP "Kajko i Kokosz w Krainie Brotostworów"
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_KAJKOIKOKOSZWKRAINIEBROTOSTWOR40069
+                    END
+                END
+                POPUP "2005"
+                BEGIN
+                    POPUP "Kajko i Kokosz: Szko³a latania"
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_KAJKOIKOKOSZ_CZARNE40072
+                    END
+                END
+                POPUP "2006"
+                BEGIN
+                    POPUP "Kajko i Kokosz 2: Cudowny lek "
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_KAJKOIKOKOSZ_CZARNE40075
+                    END
+                END
+                POPUP "2012"
+                BEGIN
+                    POPUP "Kajko i Kokosz: Mirmi³owo Wielkie"
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_KAJKOIKOKOSZ_CZARNE40078
+                    END
+                    POPUP "Kajko i Kokosz: Podstêp kaprala"
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_KAJKOIKOKOSZ_CZARNE40078
+                    END
+                    POPUP "Kajko i Kokosz: Rozprawa z Hodonem"
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_KAJKOIKOKOSZ_CZARNE40078
+                    END
+                    POPUP "Kajko i Kokosz: Twierdza Czarnoksiê¿nika"
+                    BEGIN
+                        MENUITEM "Czarne",                      ID_KAJKOIKOKOSZ_CZARNE40078
+                    END
+                END
+            END
+        END
+    END
+    POPUP "Uzbrojenie"
+    BEGIN
+        MENUITEM "Miecz",                       ID_UZBROJENIE_MIECZ
+        MENUITEM "Tarcza ",                     ID_UZBROJENIE_TARCZA
+        MENUITEM "£uk",                         ID_UZBROJENIE_40010
+        MENUITEM "Jajko",                       ID_UZBROJENIE_JAJKO
+    END
+    POPUP "Usposobienie"
+    BEGIN
+        MENUITEM "Pogodny",                     ID_USPOSOBIENIE_POGODNY
+        MENUITEM "Odwa¿ny",                     ID_USPOSOBIENIE_ODWA40012
+        MENUITEM "Z³y na kokosza gdy wyjada³ mu miêso", ID_USPOSOBIENIE_Z40057
+    END
+    POPUP "Ubiór"
+    BEGIN
+        MENUITEM "Czerwona czapka",             ID_UBI40079
+        MENUITEM "Czerwony pas",                ID_UBI40080
+        MENUITEM "Czarna koszulka",             ID_UBI40081
+        MENUITEM "Zielone spodnie",             ID_UBI40082
+        MENUITEM "Br¹zowe buty",                ID_UBI40083
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINVIEW2 DIALOGEX 0, 0, 333, 182
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Kokosz"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         IDB_KOKOSZ,IDC_STATIC,"Static",SS_BITMAP | SS_CENTERIMAGE,7,7,319,159,WS_EX_TRANSPARENT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_MAINVIEW2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 326
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_MAINVIEW2 AFX_DIALOG_LAYOUT
+BEGIN
+    0,
+    0, 0, 100, 100
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_KAJKO               BITMAP                  "png\\kajko.bmp"
+
+IDB_KOKOSZ              BITMAP                  "png\\KOKOSZ.bmp"
+
+#endif    // Polish (Poland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINVIEW DIALOGEX 0, 0, 337, 183
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Kajko"
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    CONTROL         IDB_KAJKO,IDC_STATIC,"Static",SS_BITMAP,11,7,317,184,WS_EX_TRANSPARENT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_MAINVIEW, DIALOG
+    BEGIN
+        RIGHTMARGIN, 328
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_MAINVIEW AFX_DIALOG_LAYOUT
+BEGIN
+    0,
+    0, 0, 100, 100
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
