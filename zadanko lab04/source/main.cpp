@@ -3,6 +3,13 @@
 
 HINSTANCE g_hInstance;
 HINSTANCE g2_hInstance;
+bool kajko=false;
+bool kokosz=false;
+
+void end(bool kajko, bool kokosz)
+{
+  if (kajko == true && kokosz ==true) PostQuitMessage(0);
+}
 
 INT_PTR CALLBACK DialogProc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
@@ -18,22 +25,10 @@ INT_PTR CALLBACK DialogProc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lPara
     
     return FALSE;
   }
-  case WM_COMMAND:
-    switch (HIWORD(wParam))
-    {
-    case BN_CLICKED:
-      switch (LOWORD(wParam))
-      {
-      case IDC_BUTTON1:
-        MessageBox(hwndDlg,TEXT("KOKOSZ"),TEXT("SLAM"),MB_OK);
-        HWND hwndEditBox = GetDlgItem(hwndDlg, IDC_EDIT1);
-        return TRUE;
-      }
-    }
-    return FALSE;
   case WM_CLOSE:
     DestroyWindow(hwndDlg);
-    PostQuitMessage(0);
+    kajko = true;
+    end(kajko, kokosz);
     return TRUE;
   }
   return FALSE;
@@ -52,27 +47,14 @@ INT_PTR CALLBACK DialogProc2(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lPar
 
     return FALSE;
   }
-  case WM_COMMAND:
-    switch (HIWORD(wParam))
-    {
-    case BN_CLICKED:
-      switch (LOWORD(wParam))
-      {
-      case IDC_BUTTON1:
-        MessageBox(hwndDlg, TEXT("Super atak"), TEXT("KAJKO SLASH"), MB_OK);
-        return TRUE;
-      }
-    }
-    return FALSE;
   case WM_CLOSE:
     DestroyWindow(hwndDlg);
-    PostQuitMessage(0);
+    kokosz = true;
+    end(kajko, kokosz);
     return TRUE;
   }
   return FALSE;
 }
-
-
 
 int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR szCmdLine , int iCmdShow)
 
